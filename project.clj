@@ -15,3 +15,5 @@
 
   :profiles {:dev
               {:main lispcast-intro.core/-dev-main}})
+
+;; name of heroku deployed app is listappmine

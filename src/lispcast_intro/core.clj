@@ -10,7 +10,9 @@
 (defn goodbye
   [req]
   {:status 200 :body "goodbye cruel werld!" :headers {}})
-
+(defn about
+  [req]
+  {:status 200 :body "hi my name is Jacob this site will be created in due time!" :headers {}})
 (defroutes app
            (GET "/" [] greet)
            (GET "/goodbye" [] goodbye)
